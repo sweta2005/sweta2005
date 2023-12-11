@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.main{
+    background: url(gojo.jpg);
+    height:100vh;
+    background-size: cover;
+}
+.bt_one{
+    position:absolute;
+    left:20px;
+    font-size:25px;
+    line-height: 25px;
+    font-weight:750px;
+}
+.sidebar{
+    position: fixed;
+    width:300px;
+    height:100vh;
+     box-shadow: 0 2px rgba(red, green, blue, 0.5);
+    background-color: rgb(197, 248, 248); 
+    line-height: 40px;
+     left: -300px;  
+    transition: all 0.4 linear;
+}
+.sidebar .logo{
+    position: absolute;
+    line-height: 15px;
+    margin-top: 6px;
+    left: 42px;
+    
+}
+.sidebar .logo a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.sidebar .bt_two{
+    position: absolute;
+    left:270px;
+    opacity:0.5;
+}
+.sidebar .table{
+    position: absolute;
+    margin-top:45px;
+    line-height: 55px;
+    left: 60px;
+    color:black;
+}
+.sidebar .table a{
+     position: absolute;
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+     left:23px;
+}
+.sidebar .social_media{
+    position: absolute;
+    bottom: 35px;
+    left:25%;
+}
+#check{
+    display:none;
+}
+#check:checked~.sidebar{
+    left:0;
+}
+.bt_one :hover{
+    font-size: 30px;
+    transition: 0.3;
+}
+.bt_two:hover{
+    font-size: 20px;
+    color: rgb(51, 50, 50);
+    transition: 0.3;
+}
+.sidebar .logo a{
+    box-shadow: 0 6 rgba(red, green, blue, 0.5);
+}
+.sidebar .table li:hover{
+    box-shadow: 0  0 6px rgba(red, green, blue, 0.5);
+}
+
